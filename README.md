@@ -3,11 +3,11 @@
 The code takes a positive integer $N_{i}$ as input and computes the upper
 bound
 
-$$ E_i(N_{t}')\leq\min_{J\in\left\\{ 1,\ldots,N_{i}\right\\}} 
+$$ E_i(N_i')\leq\min_{J\in\left\\{ 1,\ldots,N_{i}\right\\}} 
 \left( J+(N_i-J)\left(  1 - \mathbb{P}_i (\hat{A}_i^J\in C_i^J)\right)  \right) $$
 
-for the conditional expectation $E_i(N_{t}')$ of the number
-$N_t'$ of shots in the $i^\text{th}$ round of the outer loop in the
+for the conditional expectation $E_i(N_i')$ of the number
+$N_i'$ of shots in the $i^\text{th}$ round of the outer loop in the
 Accelerated Quantum Amplitude Estimation (AQAE) algorithm, that is,
 Algorithm 2 in the paper *Accelerated Quantum Amplitude Estimation
 without QFT* by Alet Roux and Tomasz Zastawniak (link to be inserted). This is used in the paper to
