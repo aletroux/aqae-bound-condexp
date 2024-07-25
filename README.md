@@ -9,8 +9,8 @@ $$ E_i(N_i')\leq\min_{J\in\left\\{ 1,\ldots,N_{i}\right\\}}
 for the conditional expectation $E_i(N_i')$ of the number
 $N_i'$ of shots in the $i^\text{th}$ round of the outer loop in the
 Accelerated Quantum Amplitude Estimation (AQAE) algorithm, that is,
-Algorithm 2 in the paper *Accelerated Quantum Amplitude Estimation
-without QFT* by Alet Roux and Tomasz Zastawniak (link to be inserted). This is used in the paper to
+Algorithm 2 in the paper [Accelerated Quantum Amplitude Estimation
+without QFT](https://arxiv.org/abs/2407.16795) by Alet Roux and Tomasz Zastawniak. This is used in the paper to
 obtain an upper bound for the expectation $E(M)$ of the computational complexity $M$ of the AQAE algorithm.
 
 The function `PCi(E_N_i,N)` computes the conditional probability
